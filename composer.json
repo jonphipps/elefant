@@ -1,12 +1,44 @@
 {
-	"name": "elefant/cms",
+    "name": "jonphipps/elefant",
 	"description": "The Elefant CMS",
 	"keywords": ["cms", "content management", "wysiwyg", "elefant"],
 	"homepage": "http://www.elefantcms.com/",
 	"license": "MIT",
-	"version": "1.3.5-beta",
+    "authors": [
+        {
+            "name": "Jon Phipps",
+            "email": "jphipps@madcreek.com"
+        },
+        {
+            "name": "Johnny Broadway",
+            "email": "johnny@johnnybroadway.com"
+        }
+    ],
+
+    "minimum-stability": "dev",
+    "repositories": [
+        { "type": "vcs", "url": "git@github.com:jonphipps/saasy.git" }
+    ],
+
 	"require": {
-		"php": ">=5.3.2"
+		"php": ">=5.3.2",
+        "analog/analog": "dev-master",
+        "elefant/app-saasy": "dev-master",
+        "elefant/app-analytics": "dev-master",
+        "elefant/app-assetic": "dev-master",
+        "elefant/app-chat": "dev-master",
+        "elefant/app-comments": "dev-master",
+        "elefant/app-dbman": "dev-master",
+        "elefant/app-filepicker": "dev-master",
+        "elefant/app-form": "dev-master",
+        "elefant/app-httpshell": "dev-master",
+        "elefant/app-newsletter": "dev-master",
+        "elefant/app-saasy": "dev-develop",
+        "elefant/app-search": "dev-master",
+        "elefant/app-sitemap.xml": "dev-master",
+        "elefant/app-visor": "dev-master",
+        "elefant/app-wiki": "dev-master",
+        "jbroadway/urlify": "dev-master"
 	},
 	"config": {
 		"process-timeout": 600,
